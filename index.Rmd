@@ -1,0 +1,17 @@
+---
+title: "Visual Basic 6 Companion Book"
+author: "Janesh Devkota"
+date: "August 1, 2017"
+output: bookdown:gitbook
+---
+
+```{r function-gitbook, eval=FALSE}
+bookdown::render_book("index.Rmd", "bookdown::gitbook")
+bookdown::render_book("index.Rmd", "bookdown::pdf_document2")
+```
+
+# Preface 
+
+This book is meant as a companion book to visual basic 6. Though visual basic 6 is not supported by microsoft anymore there 
+are so many users still using this programming language. 
+
